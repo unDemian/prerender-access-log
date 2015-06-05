@@ -1,0 +1,29 @@
+{
+  "name": "prerender-access-log",
+  "version": "0.1.0",
+  "description": "Prerender plugin for creating access log file with morgan ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unDemian/prerender-access-log.git"
+  },
+  "keywords": [
+    "prerender",
+    "access",
+    "log",
+    "morgan"
+  ],
+  "author": "Andrei Demian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/unDemian/prerender-access-log/issues"
+  },
+  "homepage": "https://github.com/unDemian/prerender-access-log",
+  "dependencies": {
+    "morgan": "1.5.3",
+    "file-stream-rotator": "0.0.6"
+  }
+}
